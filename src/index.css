@@ -1,0 +1,28 @@
+
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #e5f5f5;
+}
+
+main {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* index.css */
+
+/* General button styling */
+.navButton {
+  padding: 8px 16px; /* Default padding */
+  font-size: 16px;   /* Default font size */
+  margin: 0 4px;     /* Spacing between buttons */
+}
+
+/* Mobile specific styles */
+@media (max-width: 600px) {
+  .navButton {
+    padding: 6px 12px; /* Smaller padding for mobile */
+    font-size: 14px;   /* Smaller font size for mobile */
+  }
+}
